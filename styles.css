@@ -1,0 +1,50 @@
+body {
+    background-color: #090606;
+    display: grid;
+    place-items: center;
+}
+
+
+/* Reloj */
+.clockdate-warpper {
+    background-color: #333;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 15%;
+    max-width: 350px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+/* Reloj */
+#clock {
+    display: grid;
+    place-items: center;
+    color: #265f5a;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 0 0 1px #090606;
+    color: #2dc3be;
+}
+
+/* Reloj */
+#clock span {
+    color: #2dc3be;
+    text-shadow: 0 0 1px #953a3a;
+    font-size: 30px;
+    position:relative;
+    top: -5px;
+    left: -10px;
+}
+
+/* Fecha */
+#date {
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #2dc3be;
+}
